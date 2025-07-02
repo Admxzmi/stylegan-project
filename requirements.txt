@@ -7,4 +7,5 @@ scipy==1.11.4                 # Fix for tsfresh, scikit-image
 scikit-learn==1.3.2           # Fix for imbalanced-learn, mlxtend
 toolz==0.12.1                 # Fix for ibis-framework
 pyopenssl==24.2.1             # Fix for pydrive2
-cryptography==43.0.4          # Fix for pydrive2
+cryptography==42.0.8
+
