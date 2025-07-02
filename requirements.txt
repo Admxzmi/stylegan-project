@@ -1,11 +1,5 @@
-requests==2.32.3              # Fix for datasets, libpysal, yfinance, etc.
-matplotlib==3.8.4             # Compatible with ipympl, plotnine, etc.
-fsspec==2025.3.0              # Compatible with datasets, gcsfs
-rich==13.7.1                  # Compatible with bigframes
-protobuf==4.25.3              # Compatible with google-cloud libs
-scipy==1.11.4                 # Fix for tsfresh, scikit-image
-scikit-learn==1.3.2           # Fix for imbalanced-learn, mlxtend
-toolz==0.12.1                 # Fix for ibis-framework
-pyopenssl==24.2.1             # Fix for pydrive2
-cryptography==42.0.8
+# Only install if not pre-installed
+scikit-learn==1.3.2
+matplotlib==3.8.4
+rich==13.7.1
 
