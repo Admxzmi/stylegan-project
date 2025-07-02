@@ -48,7 +48,7 @@ python-dateutil==2.9.0.post0
 requests==2.26.0
 requests-oauthlib==2.0.0
 rsa==4.9.1
-scipy==1.7.1
+scipy==1.11.3
 six==1.17.0
 sympy==1.13.3
 tensorboard==2.14.0
