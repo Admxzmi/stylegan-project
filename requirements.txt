@@ -35,7 +35,7 @@ networkx==3.1
 ninja==1.10.2
 #numpy==1.22.4
 oauthlib==3.3.1
-pillow==10.4.0
+#pillow==10.4.0
 propcache==0.2.0
 protobuf==5.29.5
 psutil==7.0.0
@@ -56,7 +56,7 @@ tensorboard-data-server==0.7.2
 #torch==2.4.1+cu124
 #torchaudio==2.4.1+cu124
 #torchvision==0.19.1+cu124
-tqdm==4.62.2
+#tqdm==4.62.2
 typing_extensions==4.13.2
 urllib3==1.26.20
 Werkzeug==3.0.6
