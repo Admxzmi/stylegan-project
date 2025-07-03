@@ -268,6 +268,11 @@ def main(**kwargs):
 
     if opts.resume_kimg is not None:
         c.resume_kimg = opts.resume_kimg
+    else:
+        # Fallback: extract from filename
+        match = re.search(r'network-snapshot-(\d+)\.pkl$', opts.resume)
+        if match:
+            c.resume_kimg = int(match.group(1))
 
     # Performance-related toggles.
     if opts.fp32:
