@@ -311,7 +311,6 @@ def training_loop(
             for b_ema, b in zip(G_ema.buffers(), G.buffers()):
                 b_ema.copy_(b)
             print('[EMA] Updated generator EMA weights.')
-            os.system("nvidia-smi")
 
         # Update state.
         cur_nimg += batch_size
