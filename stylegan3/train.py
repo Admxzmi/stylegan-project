@@ -270,7 +270,7 @@ def main(**kwargs):
         c.resume_kimg = opts.resume_kimg
     else:
         # Fallback: extract from filename
-        match = re.search(r'network-snapshot-(\d+)\.pkl$', opts.resume)
+        match = re.search(r'network-snapshot-(\d+)\.pkl$', opts.resume) if opts.resume else None
         if match:
             c.resume_kimg = int(match.group(1))
 
